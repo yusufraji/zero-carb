@@ -1,0 +1,36 @@
+{
+  "verbose": true,
+  "stream": true,
+  "input": {
+    "puller": {
+      "model": "HWPCReport",
+      "type": "mongodb",
+      "collection": "report_0",
+      "db": "sensor",
+      "uri": "mongodb://127.0.0.1"
+    }
+  },
+  "output": {
+    "power_pusher": {
+      "type": "influxdb",
+      "model": "PowerReport",
+      "uri": "127.0.0.1",
+      "port": 8086,
+      "db": "results"
+    },
+    "formula_pusher": {
+      "type": "influxdb",
+      "model": "FormulaReport",
+      "uri": "127.0.0.1",
+      "port": 8086,
+      "collection": "power",
+      "db": "results"
+    }
+  },
+  "cpu-frequency-base": 19,
+  "cpu-frequency-min": 4,
+  "cpu-frequency-max": 42,
+  "cpu-error-threshold": 2.0,
+  "sensor-report-sampling-interval": 1000
+}
+
