@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - 27017:27017
+    network_mode: "host"
+
+  influxdb:
+    image: influxdb
+    container_name: influxdb
+    ports:
+      - 8086:8086
+    network_mode: "host"
+
+  hwpc-sensor:
+    image: powerapi/hwpc-sensor:latest
+    container_name: hwpc-sensor
+    pid: host
+    network_mode: "host"
+    privileged: true
+    depends_on:
+      - mongodb
+    configs:
+      - source: sensor-config
+        target: /sensor-config.json
+    command: ["--config-file", "/sensor-config.json"]
+    volumes:
+      - /sys:/sys
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - /tmp/powerapi-sensor-reporting:/reporting
+ 
+  smartwatts-formula:
+    image: powerapi/smartwatts-formula
+    container_name: smartwatts-formula
+    network_mode: "host"
+    tty: true
+    depends_on:
+      - mongodb
+      - influxdb
+    configs:
+      - source: formula-config
+        target: /formula-config.json
+    command: ["--config-file", "/formula-config.json"]
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - 3000:3000
+    network_mode: "host"
+    depends_on:
+      - influxdb
+    
+
+configs:
+  formula-config:
+    file: ./smartwatts-formula/config_file.json
+  sensor-config:
+    file: ./hwpc-sensor/config_file.json
