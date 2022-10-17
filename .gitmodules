@@ -1,0 +1,6 @@
+[submodule "hwpc-sensor"]
+	path = hwpc-sensor
+	url = git@github.com:yusufraji/hwpc-sensor.git
+[submodule "smartwatts-formula"]
+	path = smartwatts-formula
+	url = git@github.com:yusufraji/smartwatts-formula.git
