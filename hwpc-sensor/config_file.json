@@ -1,7 +1,7 @@
 {
   "name": "sensor",
   "verbose": true,
-  "frequency": 500,
+  "frequency": 1000,
   "output": {
       "type": "mongodb",
       "uri": "mongodb://127.0.0.1",
