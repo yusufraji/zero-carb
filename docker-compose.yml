@@ -46,9 +46,14 @@ services:
     configs:
       - source: formula-config
         target: /formula-config.json
-    command: bash -c "
+    command: 
+     - bash
+     - -c
+     - |
         pip install /workspaces/zero-carb/smartwatts-formula/smartwatts-formula/ 
-        && python -m smartwatts --config-file /formula-config.json"
+        pip install /workspaces/zero-carb/smartwatts-formula/openapi-client/
+        pip install "/workspaces/zero-carb/smartwatts-formula/powerapi[mongodb, influxdb, opentsdb, prometheus, influxdb_client]"
+        python -m smartwatts --config-file /formula-config.json
 
   grafana:
     image: grafana/grafana
