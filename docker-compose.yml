@@ -26,15 +26,18 @@ services:
     configs:
       - source: sensor-config
         target: /sensor-config.json
-    command: ["--config-file", "/sensor-config.json"]
+    command: [ "--config-file", "/sensor-config.json" ]
     volumes:
       - /sys:/sys
       - /var/lib/docker/containers:/var/lib/docker/containers:ro
       - /tmp/powerapi-sensor-reporting:/reporting
- 
+
   smartwatts-formula:
-    image: powerapi/smartwatts-formula
+    build:
+      dockerfile: ./smartwatts-formula/.devcontainer/Dockerfile
     container_name: smartwatts-formula
+    volumes:
+      - ./smartwatts-formula/:/workspaces/zero-carb/smartwatts-formula/:cached
     network_mode: "host"
     tty: true
     depends_on:
@@ -43,7 +46,9 @@ services:
     configs:
       - source: formula-config
         target: /formula-config.json
-    command: ["--config-file", "/formula-config.json"]
+    command: bash -c "
+        pip install /workspaces/zero-carb/smartwatts-formula/smartwatts-formula/ 
+        && python -m smartwatts --config-file /formula-config.json"
 
   grafana:
     image: grafana/grafana
@@ -53,7 +58,6 @@ services:
     network_mode: "host"
     depends_on:
       - influxdb
-    
 
 configs:
   formula-config:
