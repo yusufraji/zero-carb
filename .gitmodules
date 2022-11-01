@@ -4,3 +4,6 @@
 [submodule "smartwatts-formula"]
 	path = smartwatts-formula/smartwatts-formula
 	url = git@github.com:yusufraji/smartwatts-formula.git
+[submodule "powerapi"]
+	path = powerapi
+	url = git@github.com:yusufraji/powerapi.git
