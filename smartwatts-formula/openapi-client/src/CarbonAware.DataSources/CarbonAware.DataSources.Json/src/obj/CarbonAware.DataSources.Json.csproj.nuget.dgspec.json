@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/yusufraji/Documents/carbon_hack/zero-carb/software-carbon-intensity/openapi-client/src/CarbonAware.DataSources/CarbonAware.DataSources.Json/src/CarbonAware.DataSources.Json.csproj": {}
+  },
+  "projects": {
+    "/home/yusufraji/Documents/carbon_hack/zero-carb/software-carbon-intensity/openapi-client/src/CarbonAware.DataSources/CarbonAware.DataSources.Json/src/CarbonAware.DataSources.Json.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yusufraji/Documents/carbon_hack/zero-carb/software-carbon-intensity/openapi-client/src/CarbonAware.DataSources/CarbonAware.DataSources.Json/src/CarbonAware.DataSources.Json.csproj",
+        "projectName": "CarbonAware.DataSources.Json",
+        "projectPath": "/home/yusufraji/Documents/carbon_hack/zero-carb/software-carbon-intensity/openapi-client/src/CarbonAware.DataSources/CarbonAware.DataSources.Json/src/CarbonAware.DataSources.Json.csproj",
+        "packagesPath": "/home/yusufraji/.nuget/packages/",
+        "outputPath": "/home/yusufraji/Documents/carbon_hack/zero-carb/software-carbon-intensity/openapi-client/src/CarbonAware.DataSources/CarbonAware.DataSources.Json/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yusufraji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/yusufraji/Documents/carbon_hack/zero-carb/software-carbon-intensity/openapi-client/src/CarbonAware/src/CarbonAware.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/zero-carb/software-carbon-intensity/openapi-client/src/CarbonAware/src/CarbonAware.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/yusufraji/Documents/carbon_hack/zero-carb/software-carbon-intensity/openapi-client/src/CarbonAware/src/CarbonAware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yusufraji/Documents/carbon_hack/zero-carb/software-carbon-intensity/openapi-client/src/CarbonAware/src/CarbonAware.csproj",
+        "projectName": "CarbonAware",
+        "projectPath": "/home/yusufraji/Documents/carbon_hack/zero-carb/software-carbon-intensity/openapi-client/src/CarbonAware/src/CarbonAware.csproj",
+        "packagesPath": "/home/yusufraji/.nuget/packages/",
+        "outputPath": "/home/yusufraji/Documents/carbon_hack/zero-carb/software-carbon-intensity/openapi-client/src/CarbonAware/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yusufraji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

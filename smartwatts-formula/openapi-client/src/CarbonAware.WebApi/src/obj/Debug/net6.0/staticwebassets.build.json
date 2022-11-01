@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7h/KlAuR69vqQLyG7W6UyUOQghO4qWTJ0tDtFwRcBts=",
+  "Source": "CarbonAware.WebApi",
+  "BasePath": "_content/CarbonAware.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

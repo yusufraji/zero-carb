@@ -1,0 +1,569 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.CLI/src/CarbonAware.CLI.csproj": {}
+  },
+  "projects": {
+    "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Aggregators/src/CarbonAware.Aggregators.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Aggregators/src/CarbonAware.Aggregators.csproj",
+        "projectName": "CarbonAware.Aggregators",
+        "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Aggregators/src/CarbonAware.Aggregators.csproj",
+        "packagesPath": "/home/yusufraji/.nuget/packages/",
+        "outputPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Aggregators/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yusufraji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Registration/CarbonAware.DataSources.Registration.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Registration/CarbonAware.DataSources.Registration.csproj"
+              },
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.CLI/src/CarbonAware.CLI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.CLI/src/CarbonAware.CLI.csproj",
+        "projectName": "CarbonAware.CLI",
+        "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.CLI/src/CarbonAware.CLI.csproj",
+        "packagesPath": "/home/yusufraji/.nuget/packages/",
+        "outputPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.CLI/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yusufraji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Aggregators/src/CarbonAware.Aggregators.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Aggregators/src/CarbonAware.Aggregators.csproj"
+              },
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Json/src/CarbonAware.DataSources.Json.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Json/src/CarbonAware.DataSources.Json.csproj",
+        "projectName": "CarbonAware.DataSources.Json",
+        "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Json/src/CarbonAware.DataSources.Json.csproj",
+        "packagesPath": "/home/yusufraji/.nuget/packages/",
+        "outputPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Json/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yusufraji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Registration/CarbonAware.DataSources.Registration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Registration/CarbonAware.DataSources.Registration.csproj",
+        "projectName": "CarbonAware.DataSources.Registration",
+        "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Registration/CarbonAware.DataSources.Registration.csproj",
+        "packagesPath": "/home/yusufraji/.nuget/packages/",
+        "outputPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Registration/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yusufraji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Json/src/CarbonAware.DataSources.Json.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.Json/src/CarbonAware.DataSources.Json.csproj"
+              },
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.WattTime/src/CarbonAware.DataSources.WattTime.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.WattTime/src/CarbonAware.DataSources.WattTime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.WattTime/src/CarbonAware.DataSources.WattTime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.WattTime/src/CarbonAware.DataSources.WattTime.csproj",
+        "projectName": "CarbonAware.DataSources.WattTime",
+        "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.WattTime/src/CarbonAware.DataSources.WattTime.csproj",
+        "packagesPath": "/home/yusufraji/.nuget/packages/",
+        "outputPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.DataSources/CarbonAware.DataSources.WattTime/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yusufraji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.LocationSources/CarbonAware.LocationSources.Azure/src/CarbonAware.LocationSources.Azure.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.LocationSources/CarbonAware.LocationSources.Azure/src/CarbonAware.LocationSources.Azure.csproj"
+              },
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Tools/CarbonAware.Tools.WattTimeClient/src/CarbonAware.Tools.WattTimeClient.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Tools/CarbonAware.Tools.WattTimeClient/src/CarbonAware.Tools.WattTimeClient.csproj"
+              },
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.LocationSources/CarbonAware.LocationSources.Azure/src/CarbonAware.LocationSources.Azure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.LocationSources/CarbonAware.LocationSources.Azure/src/CarbonAware.LocationSources.Azure.csproj",
+        "projectName": "CarbonAware.LocationSources.Azure",
+        "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.LocationSources/CarbonAware.LocationSources.Azure/src/CarbonAware.LocationSources.Azure.csproj",
+        "packagesPath": "/home/yusufraji/.nuget/packages/",
+        "outputPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.LocationSources/CarbonAware.LocationSources.Azure/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yusufraji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Tools/CarbonAware.Tools.WattTimeClient/src/CarbonAware.Tools.WattTimeClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Tools/CarbonAware.Tools.WattTimeClient/src/CarbonAware.Tools.WattTimeClient.csproj",
+        "projectName": "CarbonAware.Tools.WattTimeClient",
+        "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Tools/CarbonAware.Tools.WattTimeClient/src/CarbonAware.Tools.WattTimeClient.csproj",
+        "packagesPath": "/home/yusufraji/.nuget/packages/",
+        "outputPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware.Tools/CarbonAware.Tools.WattTimeClient/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yusufraji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj": {
+                "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Net.Http.Headers": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "WireMock.Net": {
+              "target": "Package",
+              "version": "[1.4.43, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj",
+        "projectName": "CarbonAware",
+        "projectPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/CarbonAware.csproj",
+        "packagesPath": "/home/yusufraji/.nuget/packages/",
+        "outputPath": "/home/yusufraji/Documents/carbon_hack/carbon-aware-sdk/src/CarbonAware/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yusufraji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
