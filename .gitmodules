@@ -7,3 +7,6 @@
 [submodule "powerapi"]
 	path = smartwatts-formula/powerapi
 	url = git@github.com:yusufraji/powerapi.git
+[submodule "carbon-aware-sdk"]
+	path = smartwatts-formula/carbon-aware-sdk
+	url = git@github.com:Green-Software-Foundation/carbon-aware-sdk.git
