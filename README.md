@@ -13,11 +13,11 @@ This currently only runs on Linux, so you need a Linux installation.
 
 You need to have [docker](https://docs.docker.com/engine/install/) and [docker compose](https://docs.docker.com/compose/install/) installed.
 
-The solution relies on the Green Software Foundation's Carbon-Aware SDK/API. 
+The solution relies on the Green Software Foundation's [Carbon-Aware SDK/API](https://github.com/Green-Software-Foundation/carbon-aware-sdk). 
 The SDK requires a WattTime user account. 
-You need to run the Carbon-Aware web API  to use this solution, [click here]() to learn more on how to get the webapi up and running.
+You need to run the Carbon-Aware web API  to use this solution, [click here](https://github.com/Green-Software-Foundation/carbon-aware-sdk/blob/dev/GettingStarted.md) to learn more on how to get the webapi up and running.
 
-Create `.env` files from these samples, [.env_sample](.env) and [smartwatts-formula](smartwatts-formula/.env), in the same directories. 
+Create `.env` files from these samples, [.env_sample](./.env) and [smartwatts-formula](./smartwatts-formula/.env), in the same directories. 
 Replace the dummy username and password with your watttime username and password in the newly created `.env` files.
 
 Ensure that you have cgroup-tools installed, Run:
