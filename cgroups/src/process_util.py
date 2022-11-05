@@ -1,4 +1,5 @@
 import getpass
+from pprint import pprint
 
 import psutil
 
@@ -27,3 +28,7 @@ def get_genesis():
             genesis.append(_genesis)
 
     return genesis
+
+
+if __name__ == "__main__":
+    pprint(get_genesis())
