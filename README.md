@@ -2,6 +2,8 @@
 
 This application measures the energy consumption of software running on each computer within a team/organization, making it possible to obtain the [Software Carbon Intensity](https://github.com/Green-Software-Foundation/software_carbon_intensity) (SCI).
 
+![sci](images/sci.png)
+
 It is an entry for the [Green Software Foundation](https://greensoftware.foundation/)'s [CarbonHack22](https://taikai.network/gsf/hackathons/carbonhack22/overview) Hackathon.
 ## Getting Started
 
