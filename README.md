@@ -22,10 +22,15 @@ Ensure that you have cgroup-tools installed, Run:
 ```
 apt-get update
 apt-get -y install cgroup-tools
-
 ```
 
 ## Run
+
+Clone this repository and its submodules by running:
+
+```
+git clone --recurse-submodules git@github.com:yusufraji/zero-carb.git
+```
 
 You need to add each software you intend to monitor to a cgroup.
 This step is currently done manually, and will be automated later.
