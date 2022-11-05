@@ -19,7 +19,7 @@ The solution relies on the Green Software Foundation's [Carbon-Aware SDK/API](ht
 The SDK requires a WattTime user account. 
 You need to run the Carbon-Aware web API  to use this solution, [click here](https://github.com/Green-Software-Foundation/carbon-aware-sdk/blob/dev/GettingStarted.md) to learn more on how to get the webapi up and running.
 
-Create `.env` files from these samples, [.env_sample](.env_sample) and [smartwatts-formula](smartwatts-formula/.env_sample), in the same directories. 
+Create `.env` files from these samples, [.env_sample](.env_sample) and [smartwatts-formula/.env_sample](smartwatts-formula/.env_sample), in the same directories. 
 Replace the dummy username and password with your watttime username and password in the newly created `.env` files.
 
 Ensure that you have cgroup-tools installed, Run:
